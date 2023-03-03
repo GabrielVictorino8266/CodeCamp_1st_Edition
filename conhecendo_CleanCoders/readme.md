@@ -13,7 +13,7 @@ As entradas serão: o nome, o sobrenome e o ID de cada CleanCoder. A saída deve
 
 ## 🌳 Exemplo
 
-Entrada | Saida
+| Entrada | Saida
 -------  --------
 Kawan   |   NOME: Kawan Anthony
 Anthony     ID: 22
