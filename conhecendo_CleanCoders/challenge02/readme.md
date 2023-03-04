@@ -1,20 +1,18 @@
 # Intruções do Desafio
 
 ## 🌱 Sobre o Desafio 
-Buscando planejar as ações para conter a Oil Corp, um acampamento foi criado e muitos CleanCoders (inclusive novos adeptos da causa) estão chegando. Com isso, para faciliar a comunicação e interação, precisamos imprimir cartões de identificação para todas as pessoas.
+Agora precisamos separar os CleanCoders em dois grupos, isso vai facilitar a execução de ações estratégicas. Para isso, foi definido que os IDs pares devem ir para as barracas à direita da estrada que corta o acampamento e os ímpares para a esquerda. Aproveite essa oportunidade para criar um código que verifique o ID do CleanCoder e indique para onde ele deve ir: Direita ou Esquerda.
 
-Crie um código que com três entradas (NOME, SOBRENOME e ID) que imprima essas informações no seguinte padrão: "Nome: NOME SOBRENOME ID: ID"
-
-Venilton, um CleanCoder experiente, compartilhou uma dica bem útil. Ele disse que é possível utilizar o conceito de interpolação de strings para facilitar a impressão de textos concatenados à variáveis. Para utilizar basta fazer assim:
-
+Um jeito bem fácil de fazermos essa verificação é utilizando o operador %. Com ele conseguimos verificar o resto de divisões.
 print(`String e ${variavel}`);
+
 ## ⛺ Entradas e Saídas
-As entradas serão: o nome, o sobrenome e o ID de cada CleanCoder. A saída deverá ser essas três variáveis concatenadas em uma única String.
+As entradas serão números inteiros positivos que representarão os IDs dos CleanCoders. A saída deve ser se, de acordo com o ID, o CleanCoder deve ir para as barracas da direita ou da esquerda.
 
 ## 🌳 Exemplo
 
 | Entrada | Saida |
-|-------------------------|-----------------------------------|
-| Kawan Anthony<br> 22    |NOME: Kawan Anthony<br> ID: 22|
-| Renan Oliveira<br> 98   |NOME: Renan Oliveira<br> ID: 98|
-| Marjory Santos<br> 204  |NOME: Marjory Santos<br> ID: 204|
+|------|--------------------|
+| 250  | Barraca da Direita |
+| 15   | Barraca da Esquerda|
+| 2    | Barraca da Direita |
