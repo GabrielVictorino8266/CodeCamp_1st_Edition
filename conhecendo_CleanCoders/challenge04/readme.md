@@ -18,5 +18,5 @@ A entrada será a quantidade de plástico em quilogramas. A saída deverá ser a
 | Entrada | Saida |
 |----|------------------------|
 | 10 |Serão necessários 4 dias|  
-| 59 |Serão necessários 6 dias|
+| 50 |Serão necessários 6 dias|
 | 78 |Serão necessários 7 dias|
