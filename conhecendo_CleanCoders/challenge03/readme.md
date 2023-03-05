@@ -20,4 +20,5 @@ As entradas será uma lista com as porcentagens de saúde das árvores. Para a s
 
 | Entrada | Saida |
 |-------------|--------------------|
-| 10, 75, 98  |Isolar e iniciar protocolo de cuidados<br>Descartar da lista<br>Descartar da lista                   |
+| 10, 75, 98  |Isolar e iniciar protocolo de cuidados<br>Descartar da lista<br>Descartar da lista      
+| 50, 65, 80  |Manter sob observação <br>Manter sob observação<br>Descartar da lista
